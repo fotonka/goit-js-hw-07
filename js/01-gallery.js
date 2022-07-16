@@ -61,7 +61,6 @@ function onGalleryContainerClick(event) {
   modal.show();
   if (modal.visible()) {
     window.addEventListener("keydown", onPressKeyESC);
-    window.addEventListener("click", mouseEnter);
   }
   function onPressKeyESC(event) {
     if (event.code === "Escape") {
